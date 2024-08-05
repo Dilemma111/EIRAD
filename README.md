@@ -5,4 +5,4 @@ git clone git@github.com:Gary3410/TaPA.git
 Configure the preceding environment
 
 #example
-python3 
+python3 tapa-1key-harmful.py
