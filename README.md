@@ -14,19 +14,28 @@ pip install -r requirements.txt
 If you have problems with the installation, you can follow these steps
 
 cd TaPA
+
 pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu117
+
 pip install sentencepiece
+
 pip install tqdm
+
 pip install numpy
+
 pip install jsonargparse[signatures]
+
 pip install bitsandbytes
+
 pip install datasets
+
 pip install zstandard
+
 pip install lightning==2.1.0.dev0
+
 pip install deepspeed
 
-# Install Detic
-# Exit the TaPA file first
+
 cd ..
 git clone git@github.com:facebookresearch/detectron2.git
 cd detectron2
